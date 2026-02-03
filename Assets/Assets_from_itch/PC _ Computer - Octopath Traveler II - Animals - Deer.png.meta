@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: b73cc5c3635180544970ff3ceb188366
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4079839670453692881
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_0
+  - first:
+      213: 8841025469535452783
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_1
+  - first:
+      213: 7733419832343315642
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_2
+  - first:
+      213: -8856593628452386004
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_3
+  - first:
+      213: 3266753094632233241
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_4
+  - first:
+      213: -1086127200578109412
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_5
+  - first:
+      213: 893102680294779127
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_6
+  - first:
+      213: -7683603327269219580
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_7
+  - first:
+      213: 3216265429546305786
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_8
+  - first:
+      213: 8882485015741158223
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_9
+  - first:
+      213: 3662453304594493880
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_10
+  - first:
+      213: -5942132205166767350
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_11
+  - first:
+      213: -4947333143889960777
+    second: PC _ Computer - Octopath Traveler II - Animals - Deer_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 167
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f269f068f6f7167c0800000000000000
+      internalID: -4079839670453692881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 167
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e77d1a2d1a1ba70800000000000000
+      internalID: 8841025469535452783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 163
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4c8c53d50a25b60800000000000000
+      internalID: 7733419832343315642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b8b18e40f071580800000000000000
+      internalID: -8856593628452386004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 167
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919567ea1a6d55d20800000000000000
+      internalID: 3266753094632233241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1007acc01d4de0f0800000000000000
+      internalID: -1086127200578109412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 69
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f86be6e720f46c00800000000000000
+      internalID: 893102680294779127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 85
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403db1bbb7b5e5590800000000000000
+      internalID: -7683603327269219580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 107
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af80a7f1e5872ac20800000000000000
+      internalID: 3216265429546305786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 107
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f435bf57f0de44b70800000000000000
+      internalID: 8882485015741158223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b17fc240e5a3d230800000000000000
+      internalID: 3662453304594493880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 13
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0350aefd3e498da0800000000000000
+      internalID: -5942132205166767350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Octopath Traveler II - Animals - Deer_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 13
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b02cecb7ba875bb0800000000000000
+      internalID: -4947333143889960777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC _ Computer - Octopath Traveler II - Animals - Deer_0: -4079839670453692881
+      PC _ Computer - Octopath Traveler II - Animals - Deer_1: 8841025469535452783
+      PC _ Computer - Octopath Traveler II - Animals - Deer_10: 3662453304594493880
+      PC _ Computer - Octopath Traveler II - Animals - Deer_11: -5942132205166767350
+      PC _ Computer - Octopath Traveler II - Animals - Deer_12: -4947333143889960777
+      PC _ Computer - Octopath Traveler II - Animals - Deer_2: 7733419832343315642
+      PC _ Computer - Octopath Traveler II - Animals - Deer_3: -8856593628452386004
+      PC _ Computer - Octopath Traveler II - Animals - Deer_4: 3266753094632233241
+      PC _ Computer - Octopath Traveler II - Animals - Deer_5: -1086127200578109412
+      PC _ Computer - Octopath Traveler II - Animals - Deer_6: 893102680294779127
+      PC _ Computer - Octopath Traveler II - Animals - Deer_7: -7683603327269219580
+      PC _ Computer - Octopath Traveler II - Animals - Deer_8: 3216265429546305786
+      PC _ Computer - Octopath Traveler II - Animals - Deer_9: 8882485015741158223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
