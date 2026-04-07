@@ -5,8 +5,10 @@ using UnityEngine;
 public class ObstacleManager : MonoBehaviour
 {
     public ObstacleMover[] obstacles;
-    public int totalCount = 6;        // всего запусков
+    public int totalCount = 6;
     public float delayBetween = 0.5f;
+
+    public float startDelay = 2f; // ⭐ задержка перед началом
 
     void Start()
     {
@@ -15,17 +17,16 @@ public class ObstacleManager : MonoBehaviour
 
     IEnumerator ObstacleSequence()
     {
-        // список для порядка запуска
+        yield return new WaitForSeconds(startDelay);
+
         List<ObstacleMover> sequence = new List<ObstacleMover>();
 
-        // 1️⃣ гарантируем, что каждый появится хотя бы 1 раз
         foreach (var obstacle in obstacles)
         {
             if (obstacle != null)
                 sequence.Add(obstacle);
         }
 
-        // 2️⃣ добираем случайные, пока не будет totalCount
         while (sequence.Count < totalCount)
         {
             int index = Random.Range(0, obstacles.Length);
@@ -33,10 +34,8 @@ public class ObstacleManager : MonoBehaviour
                 sequence.Add(obstacles[index]);
         }
 
-        // 3️⃣ перемешиваем порядок
         Shuffle(sequence);
 
-        // 4️⃣ запускаем по очереди
         foreach (var obstacle in sequence)
         {
             yield return StartCoroutine(obstacle.Move());
