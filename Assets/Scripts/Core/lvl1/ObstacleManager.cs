@@ -7,8 +7,9 @@ public class ObstacleManager : MonoBehaviour
     public ObstacleMover[] obstacles;
     public int totalCount = 6;
     public float delayBetween = 0.5f;
+    public float startDelay = 2f;
 
-    public float startDelay = 2f; // ⭐ задержка перед началом
+    public bool isFinished = false;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class ObstacleManager : MonoBehaviour
         while (sequence.Count < totalCount)
         {
             int index = Random.Range(0, obstacles.Length);
+
             if (obstacles[index] != null)
                 sequence.Add(obstacles[index]);
         }
@@ -41,6 +43,8 @@ public class ObstacleManager : MonoBehaviour
             yield return StartCoroutine(obstacle.Move());
             yield return new WaitForSeconds(delayBetween);
         }
+
+        isFinished = true;
     }
 
     void Shuffle(List<ObstacleMover> list)

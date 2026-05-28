@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/cristmastale.unity
     guid: 258640f1ae160b441bec934dce67d7a9
   - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 27c9062d403ed014eafc2218256eb20a
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: e033cd4a51c359b4cb7d9d478cec02c5
   m_configObjects:

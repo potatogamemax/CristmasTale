@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMover : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 5f;
@@ -8,6 +8,10 @@ public class PlayerMovement : MonoBehaviour
     [Header("Hitbox settings")]
     public Vector2 hitBoxSize = new Vector2(0.8f, 0.8f);
     public LayerMask enemyLayer;
+
+    [Header("Movement Bounds")]
+    public float minX, maxX;
+    public float minY, maxY;
 
     Rigidbody2D rb;
 
@@ -18,12 +22,18 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Движение
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
         Vector2 movement = new Vector2(moveX, moveY).normalized;
-        transform.position += (Vector3)(movement * speed * Time.fixedDeltaTime);
+
+        Vector3 newPosition = transform.position + (Vector3)(movement * speed * Time.fixedDeltaTime);
+
+        // ����������� �� �����������
+        newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
+        newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+
+        transform.position = newPosition;
 
         CheckEnemyHit();
     }
@@ -31,10 +41,10 @@ public class PlayerMovement : MonoBehaviour
     void CheckEnemyHit()
     {
         Collider2D hit = Physics2D.OverlapBox(
-            transform.position, // центр бокса
-            hitBoxSize,         // размер
-            0f,                 // поворот
-            enemyLayer          // кого ищем
+            transform.position,
+            hitBoxSize,
+            0f,
+            enemyLayer
         );
 
         if (hit != null)
@@ -43,10 +53,5 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // Для визуализации бокса в редакторе
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position, hitBoxSize);
-    }
+
 }

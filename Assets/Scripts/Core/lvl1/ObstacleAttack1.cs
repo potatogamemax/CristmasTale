@@ -4,7 +4,7 @@ using UnityEngine;
 public class ObstacleMover : MonoBehaviour
 {
     public Vector3 moveDirection = Vector3.forward;
-    public float moveDistance = 2f;
+    public float moveDistance = 2.5f;
     public float moveTime = 0.5f;
     public float stayTime = 1f;
 

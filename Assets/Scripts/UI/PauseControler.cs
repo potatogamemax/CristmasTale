@@ -1,12 +1,20 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PasueController : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
+
     [SerializeField] private Button buttonResume;
     [SerializeField] private Button buttonMainMenu;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private Button buttonMainMenu2;
+
+    // ğŸ†• Ğ¢Ğ Ğ•Ğ¢Ğ¬Ğ¯ ĞšĞĞĞŸĞšĞ Ğ’Ğ«Ğ¥ĞĞ” Ğ’ ĞœĞ•ĞĞ®
+    [SerializeField] private Button buttonMainMenu3;
+
+    [SerializeField] private Button buttonRestart;
+
     void OnEnable()
     {
         if (EventBus.Instance != null)
@@ -16,7 +24,6 @@ public class PasueController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void OnDisable()
     {
         if (EventBus.Instance != null)
@@ -29,14 +36,20 @@ public class PasueController : MonoBehaviour
     private void Start()
     {
         if (buttonResume != null)
-
             buttonResume.onClick.AddListener(OnResumeClicked);
 
-
         if (buttonMainMenu != null)
-
             buttonMainMenu.onClick.AddListener(OnMainMenuClicked);
 
+        if (buttonMainMenu2 != null)
+            buttonMainMenu2.onClick.AddListener(OnMainMenuClicked);
+
+        // ğŸ†• 3-Ñ ĞºĞ½Ğ¾Ğ¿ĞºĞ° Ğ¼ĞµĞ½Ñ
+        if (buttonMainMenu3 != null)
+            buttonMainMenu3.onClick.AddListener(OnMainMenuClicked);
+
+        if (buttonRestart != null)
+            buttonRestart.onClick.AddListener(OnRestartClicked);
     }
 
     private void Update()
@@ -51,7 +64,7 @@ public class PasueController : MonoBehaviour
     {
         if (GameManager.Instance == null)
         {
-            Debug.LogWarning("GameManager instance is null . Cannot togle pause");
+            Debug.LogWarning("GameManager instance is null. Cannot toggle pause");
             return;
         }
 
@@ -63,29 +76,24 @@ public class PasueController : MonoBehaviour
         {
             GameManager.Instance.Resume();
         }
-
     }
 
     private void ShowPausePanel()
     {
         if (pauseMenu != null)
-        {
             pauseMenu.SetActive(true);
-        }
     }
 
     private void HidePausePanel()
     {
         if (pauseMenu != null)
-        {
             pauseMenu.SetActive(false);
-        }
     }
 
     private void OnResumeClicked()
     {
         if (GameManager.Instance != null)
-            GameManager.Instance.Resume(); // âûçîâåò EventBus, êîòîğûé ñêğîåò ïàíåëü
+            GameManager.Instance.Resume();
     }
 
     private void OnMainMenuClicked()
@@ -94,4 +102,9 @@ public class PasueController : MonoBehaviour
             GameManager.Instance.GoToMenu();
     }
 
+    private void OnRestartClicked()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
